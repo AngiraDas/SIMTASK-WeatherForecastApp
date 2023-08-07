@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (pl !== "") {
       fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${pl}&appid=${apiKey}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${pl}&appid=${apiKey}&units=metric`
       )
         .then((response) => response.json())
         .then((data) => {
