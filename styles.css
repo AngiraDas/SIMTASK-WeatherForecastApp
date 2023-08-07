@@ -1,0 +1,35 @@
+body {
+    background-image: url('we.jpg');
+    
+    background-color: white ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+.b {
+    margin-top: 0px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.wf{
+    color: blue;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+#sb{
+    background-color: aqua;
+}
+.s{
+    text-align: center;
+    margin-top: 10px;
+    
+}
